@@ -29,11 +29,10 @@
 .sideBar .logoDiv img {
   width: 40px;
 }
-
-.menu {
+.sideBar .menu {
   width: 100%;
 }
-.menu .navItem .navList {
+.sideBar .menu .navItem .navList {
   position: relative;
   display: grid;
   justify-content: center;
@@ -43,7 +42,7 @@
   cursor: pointer;
   overflow: hidden;
 }
-.menu .navItem .navList::after {
+.sideBar .menu .navItem .navList::after {
   display: none;
   position: absolute;
   content: "";
@@ -52,10 +51,10 @@
   width: 3px;
   height: 25%;
   border-radius: 10px;
-  transition: 3s ease;
+  transition: 0.3s ease;
   background: var(--lightGreenColor);
 }
-.menu .navItem .navList::before {
+.sideBar .menu .navItem .navList::before {
   display: none;
   position: absolute;
   content: "";
@@ -64,16 +63,16 @@
   width: 3px;
   height: 25%;
   border-radius: 10px;
-  transition: 3s ease;
+  transition: 0.3s ease;
   background: var(--darkGreenColor);
 }
-.menu .navItem .navList .icon {
+.sideBar .menu .navItem .navList .icon {
   width: 100%;
   color: var(--greyText);
 }
-.menu .navItem .navList:hover::after, .menu .navItem .navList:hover::before {
+.sideBar .menu .navItem .navList:hover::after, .sideBar .menu .navItem .navList:hover::before {
   display: block;
 }
-.menu .navItem .navList:hover .icon {
+.sideBar .menu .navItem .navList:hover .icon {
   color: var(--darkGreenColor);
 }/*# sourceMappingURL=sidebar.css.map */
