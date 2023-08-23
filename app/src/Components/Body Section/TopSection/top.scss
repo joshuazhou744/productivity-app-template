@@ -244,6 +244,24 @@
                         }
                     }
                 }
+
+                .singleStat:nth-child(3) {
+                    .line {
+                        .range {
+                            width: 25%;
+                            background: var(--cardColor);
+                        }
+                    }
+                }
+
+                .singleStat:nth-child(4) {
+                    .line {
+                        .range {
+                            width: 65%;
+                            background: var(--yellowColor);
+                        }
+                    }
+                }
             }
         }
     }

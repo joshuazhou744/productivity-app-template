@@ -197,4 +197,12 @@
 .top .cardsDiv .statsDiv .stat .singleStat:nth-child(2) .line .range {
   width: 80%;
   background: var(--darkGreenColor);
+}
+.top .cardsDiv .statsDiv .stat .singleStat:nth-child(3) .line .range {
+  width: 25%;
+  background: var(--cardColor);
+}
+.top .cardsDiv .statsDiv .stat .singleStat:nth-child(4) .line .range {
+  width: 65%;
+  background: var(--yellowColor);
 }/*# sourceMappingURL=top.css.map */
