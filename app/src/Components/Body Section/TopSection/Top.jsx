@@ -128,7 +128,7 @@ const Top = () => {
 
             <div className="singleStat">
               <div className="statInfo flex">
-                <span className="status">Complete Works</span>
+                <span className="status">Tasks</span>
                 <span className="percentage">%</span>
               </div>
 
@@ -139,7 +139,7 @@ const Top = () => {
 
             <div className="singleStat">
               <div className="statInfo flex">
-                <span className="status">Complete Works</span>
+                <span className="status">Upcoming Tasks</span>
                 <span className="percentage">%</span>
               </div>
 
@@ -150,7 +150,7 @@ const Top = () => {
 
             <div className="singleStat">
               <div className="statInfo flex">
-                <span className="status">Complete Works</span>
+                <span className="status">Working Hours</span>
                 <span className="percentage">%</span>
               </div>
 

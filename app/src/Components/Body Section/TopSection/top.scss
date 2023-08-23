@@ -235,6 +235,15 @@
                         }
                     }
                 }
+
+                .singleStat:nth-child(2) {
+                    .line {
+                        .range {
+                            width: 80%;
+                            background: var(--darkGreenColor);
+                        }
+                    }
+                }
             }
         }
     }

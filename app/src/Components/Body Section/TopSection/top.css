@@ -193,4 +193,8 @@
   width: 40%;
   background: var(--lightGreenColor);
   border-radius: 3rem;
+}
+.top .cardsDiv .statsDiv .stat .singleStat:nth-child(2) .line .range {
+  width: 80%;
+  background: var(--darkGreenColor);
 }/*# sourceMappingURL=top.css.map */
